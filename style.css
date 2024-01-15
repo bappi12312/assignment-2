@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* header related style */
+
+/* nav style */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5vw 8vw;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 1.2vw;
+}
+
+.nav-left span {
+  color: #FF5400;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.nav-right > ul {
+  display: flex;
+  align-items: center;
+  gap: 4vw;
+}
+
+.nav-right li {
+  list-style: none;
+}
+
+.nav-right li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 1.2rem;
+}
+
+.nav-right li .home {
+  color: #FF5400;
+}
+
+.nav-right li:nth-child(6) {
+  display: none;
+}
+
+
+/* banner section related style */
+
+
+
+/* responsive deginn for mobile devices */
+
+@media (max-width: 600px) {
+  /* nav related responsive */
+  .nav {
+    padding: 2vw 3vw;
+  }
+
+  .nav img {
+    height: 30px;
+  }
+
+  .nav-left span {
+    font-size: 1.2rem;
+  }
+
+  .nav-left h2 {
+     font-size: 1rem;
+  }
+
+  .nav-right li {
+    display: none;
+  }
+
+  .nav-right li:nth-child(6) {
+    display: block;
+  }
+
+
+  /* banner related styles */
+}
