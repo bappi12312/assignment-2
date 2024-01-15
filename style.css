@@ -202,9 +202,62 @@ html, body {
 
   /* section 2 related styles */
 
+  .section2 {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section2-left {
+    text-align: center;
+
+  }
+
+  .section2-img-container {
+    padding: 4vw 8vw;
+    display: flex;
+    flex-direction: column;
+    gap: -100px;
+
+  }
+
+  .first-row, .second-row, .third-row {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+
+  .second-row, .third-row {
+    margin-top: -15px;
+  }
 
 
- 
+  .section2-img-container  .centerd-text {
+    position: relative;
+    top: -175px;
+    color: rgb(196, 181, 181);
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-shadow: 2px 3px 5px black;
+
+  }
+
+  /* .second-row {
+    display: flex;
+    gap: 25px;
+  }
+
+  .third-row {
+    display: flex;
+    gap: 25px;
+  } */
+
+
 
 
 /* responsive deginn for mobile devices */
@@ -308,5 +361,5 @@ html, body {
 
 
   /* section 2 related responsive */
-  
+
 }
