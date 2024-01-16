@@ -434,4 +434,27 @@ html, body {
 
   /* sectiom 3 responsive started */
 
+  .section3 {
+    padding: 0 3vw;
+    gap: 5vw ;
+  }
+
+  .section3 .section3-middle {
+    flex-direction: column;
+  }
+
+  .section3 .shared {
+    width: 300px;
+    padding: 3vw 4vw;
+    margin-top: 3vw;
+  }
+
+  .section3 #speciel {
+    text-align: center;
+  }
+
+  .section3 h2 {
+    margin-bottom: 5vw;
+  }
+
 }
