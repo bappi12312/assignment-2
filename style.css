@@ -483,15 +483,23 @@ html, body {
   align-items: center; */
   padding: 2vw 3vw;
   padding-top: 3.5vw;
+ 
 
+ }
+
+ .section6 .section6-left h6 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+  padding-bottom: 20px;
  }
 
  .section6 input {
   width: 380px;
   height: 50px;
   flex-shrink: 0;
-  border: 1px solid rgba(0, 0, 0, 0.212);
+  border: 1px solid rgba(0, 0, 0, 0.062);
   padding-left: 20px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
 
  }
 
@@ -562,7 +570,55 @@ html, body {
 
  }
 
+ /* section 7 and this is my creating section */
 
+
+  .section7 {
+    width: 100%;
+  }
+
+  .section7 .my-creating-section {
+    height: 300px;
+    width: 300px;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+  /* section 8 related styles */
+
+
+  .section8 {
+    width: 100%;
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .section8 .section8-top {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .section8 .social-link {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 27px;
+  }
+
+  .section8 span {
+    color: #FF5400;
+    font-size: 2rem;
+    font-weight: 800;
+  }
 
 /* responsive deginn for mobile devices */
 
@@ -810,7 +866,7 @@ html, body {
 
   .section6 .section6-left {
     width: 335px;
-    height: 330px;
+    height: 360px;
     flex-shrink: 0;
     gap: 30px;
     padding: 10vw 0 4vw 5vw;
@@ -842,5 +898,14 @@ html, body {
   .section6 .section6-right-middle h3 {
     font-size: .8rem;
   }
+
+  /* section6 related responsive */
+
+
+
+
+  /* section8 related responsive */
+
+
 
 }
