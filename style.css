@@ -418,6 +418,8 @@ html, body {
   font-weight: 800;
  }
 
+ /* section5 related styles */
+
  
 
 
@@ -578,5 +580,65 @@ html, body {
 
 
   /* section4 related responsive */
+
+  .section4 {
+    padding: 0 3vw;
+    margin-top: 15px;
+  }
+
+  .section4-top p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  .section4-middle, .section4-bottom2, .section4-bottom {
+    height: 500px;
+    width: 350px;
+  }
+
+  .section4 .card {
+    width: 300px;
+    height: 300px;
+    top: 150px;
+    right: 20px;
+    /* bottom: 0; */
+    justify-content: center;
+  }
+
+
+  .section4 .card2 {
+    left: 25px;
+    top: 150px;
+
+    justify-content: center;
+    
+  }
+
+  .section4 .card .card-top {
+  flex-direction: column;
+  }
+
+  #none {
+    display: none;
+  }
+
+  .section4 .card .card-bottom p {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+  }
+
+  .section4 .card .card-bottom .price {
+    margin-bottom: 3vw;
+  }
+
+  .section4 .button {
+    position: relative;
+    left: 75px;
+   margin: 0;
+   margin-top: 10px;
+  }
+
+  /* section5 related responsive */
 
 }
