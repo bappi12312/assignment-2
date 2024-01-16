@@ -579,14 +579,69 @@ html, body {
 
   .section7 {
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 130px;
+    margin-top: 50px;
   }
 
   .section7 .my-creating-section {
-    height: 300px;
-    width: 300px;
-    background-image: ;
+    height: 400px;
+    width: 400px;
+    background-image: url("Images/young-bearded-man-with-striped-shirt_273609-5677.avif");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    /* padding: 10vw; */
+    border: 5px double rgba(126, 114, 114, 0.582);
+  }
+
+  .section7 > h1 {
+    position: relative;
+    font-weight: 800;
+    top: -245px;
+    left: 355px;
+    color: #d14e0d;
+    text-shadow: 2px 3px 4px rgb(133, 82, 82);
+  }
+
+  .section7-card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;;
+    /* box-shadow: 2px 3px 4px 4px rgb(206, 199, 199); */
+    padding: 10px;
+    position: relative;
+    left: -300px;
+    top: -50px;
+    border-radius: 30%;
+  }
+
+  .section7-card2 {
+    top: 30px;
+  }
+
+  .section7-card3 {
+    left: 440px;
+    top: -236px;
+  }
+
+  .section7-card4 {
+    top: -850px;
+    left: 430px;
+  }
+
+  .flex {
+    display: none;
+  }
+
+  #flex2 {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 10px;
   }
 
 
@@ -925,9 +980,33 @@ html, body {
     font-size: .8rem;
   }
 
-  /* section6 related responsive */
+  /* section7 related responsive */
+  
+.section7 {
+  flex-direction: column;
+}
+
+.section7 > h1 {
+  position: static;
+  margin-bottom: 20px;
+}
+
+.section7-card {
+  display: none;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+}
 
 
+.section7 .my-creating-section {
+  width: 350px;
+  height: 350px;
+}
 
 
   /* section8 related responsive */
