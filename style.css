@@ -420,7 +420,33 @@ html, body {
 
  /* section5 related styles */
 
- 
+ .section5 {
+  width: 100%;
+  padding: 5vw 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .section5 h2 {
+  color: #131318;
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 1.5vw;
+
+ }
+
+ .section5 .section5-right {
+  width: 630px;
+  height: 440px;
+  background-image: url("Images/Group\ 40089.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+ .section5 ul {
+  padding: 1.5vw;
+ }
 
 
 
@@ -610,7 +636,6 @@ html, body {
   .section4 .card2 {
     left: 25px;
     top: 150px;
-
     justify-content: center;
     
   }
@@ -635,10 +660,25 @@ html, body {
   .section4 .button {
     position: relative;
     left: 75px;
-   margin: 0;
-   margin-top: 10px;
+    margin: 0;
+    margin-top: 10px;
   }
 
   /* section5 related responsive */
+
+  .section5 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section5 .section5-right  {
+    width: 350px;
+    height: 220px;
+    background-size: cover;
+  }
+
+  .section5 ul {
+    padding: 5vw;
+   }
 
 }
