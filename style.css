@@ -8,6 +8,13 @@
 
 }
 
+P {
+  color: #5A5A5D;
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -396,6 +403,19 @@ html, body {
   color: white;
   font-size: 1.5rem;
   font-weight: 700;
+ }
+
+ .section4 .button {
+  margin: 4vw 43%;
+  width: 210px;
+  height: 55px;
+  border: none;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 800;
  }
 
  
