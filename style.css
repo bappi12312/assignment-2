@@ -448,6 +448,18 @@ html, body {
   padding: 1.5vw;
  }
 
+ .section5-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .section5-right .section5-img-text h2 {
+  color: white;
+  text-align: center;
+ }
+
 
 
 /* responsive deginn for mobile devices */
@@ -679,6 +691,11 @@ html, body {
 
   .section5 ul {
     padding: 5vw;
+   }
+
+   .section5-right .section5-img-text h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
    }
 
 }
