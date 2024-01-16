@@ -8,6 +8,10 @@
 
 }
 
+* ::selection {
+  background-color: rgba(134, 129, 129, 0.568);
+}
+
 P {
   color: #5A5A5D;
   font-size: 1rem;
@@ -526,8 +530,8 @@ html, body {
   background-image: url("Images/Rectangle\ 8\ \(1\).png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
-  width: 900px;
+  height: 425px;
+  width: 800px;
   flex-shrink: 0;
   border-radius: 16px;
   display: flex;
@@ -590,7 +594,7 @@ html, body {
   /* section 8 related styles */
 
 
-  .section8 {
+  footer {
     width: 100%;
     height: 500px;
     background: rgba(19, 19, 24, 0.05);
@@ -599,6 +603,14 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 25px;
+  }
+
+  .section8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
 
   .section8 .section8-top {
@@ -612,13 +624,27 @@ html, body {
     align-items: center;
     font-size: 2rem;
     gap: 27px;
+    /* border-bottom: 1px solid black; */
   }
+
+
 
   .section8 span {
     color: #FF5400;
     font-size: 2rem;
     font-weight: 800;
   }
+
+  .copyright {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-top: 70px; 
+    border-top: 1px solid rgba(0, 0, 0, 0.329);
+    display: block;
+
+  }
+  
+
 
 /* responsive deginn for mobile devices */
 
@@ -906,6 +932,15 @@ html, body {
 
   /* section8 related responsive */
 
+  .section8 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
 
 
 }
